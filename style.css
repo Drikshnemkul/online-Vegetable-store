@@ -8,7 +8,7 @@
     max-width: 100%;
     margin:auto;
     padding-left: 25px;
-    background-color: #563434;
+    background-color: #65926b;
     background-position: cover;
 }
 
@@ -31,7 +31,7 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color:rgb(17, 20, 19)
+    color:rgb(21, 22, 21)
 }
 p{
     color:rgb(10, 11, 12);
@@ -43,9 +43,13 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+.col-2{
+    flex-basis: 50%;
+    min-width: 75%;
+}
 .col-2 img{
-    
+    max-width: 100%;
+    padding: 50px 20px 20px 20px;
 }
 
 .col-2 h1{
@@ -65,5 +69,5 @@ p{
     transition: background 0.5s;
 }
 .btn:hover{
-    background:#563434;
+    background:#442c2c;
 }
