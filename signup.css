@@ -7,10 +7,10 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(to left,rgba(11, 7, 71, 0.6),rgba(12, 153, 235, 0.6)),url('image/loginImg.jpg');
+    background-image:linear-gradient(to left,rgba(11, 7, 71, 0.6),rgba(109, 238, 83, 0.6)),url('image/loginImg.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-    font-family: 'Perpetua', sans-serif,bold;
+    font-family: 'lato', sans-serif,bold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,12 +26,12 @@ body{
     max-width:100% ;
 }
 .header{
-    background: linear-gradient(to left,#1CB5E0,#000046);
+    background: linear-gradient(to left,#59e68f,#67aff3);
     padding: 30px 0;
 }
 .header h2{
 color: #fff;
-font-family: 'Perpetua', sans-serif;
+font-family: 'lato', sans-serif;
 font-size: 24px;
 text-transform: uppercase;
 text-align: center;
@@ -53,7 +53,7 @@ text-align: center;
     border: 2px solid #f0f0f0;
     border-radius: 5px;
     display: block;
-    font-family:'Perpetua', sans-serif; 
+    font-family:'lato', sans-serif; 
    font-size: 14px;
     padding: 4px;
 
@@ -71,7 +71,7 @@ text-align: center;
 .form-control i{
     position: absolute;
     right: 12px;
-    top: 38px;
+    top: 30px;
     visibility: hidden;
 }
 
@@ -95,13 +95,13 @@ text-align: center;
     visibility: visible;
 }
 .form .btn{
-    background: linear-gradient(to left,#1CB5E0,#000046);
+    background: linear-gradient(to left,#32c78e,#86e5de);
     border-radius: 6px;
     border: none;
     outline: none;
     color: #fff;
     display: block;
-    font-family:'Perpetua', sans-serif; ;
+    font-family:'lato', sans-serif; ;
     font-size: 16px;
     padding: 15px 0;
     margin-top: 20px;
@@ -111,5 +111,5 @@ text-align: center;
     transition: all 1s ease;
 }
 .form .btn:hover{
-    background: linear-gradient(to right,#1CB5E0,#000046);
+    background: linear-gradient(to right,#62e2c2,#75e4e4);
 }
