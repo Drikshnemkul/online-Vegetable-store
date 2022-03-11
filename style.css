@@ -2,11 +2,9 @@
     margin:auto;
     padding:0;
     box-sizing: border-box;
-    
-    
 }
+
 .container{
-    
     background-image: url(image/vegetable.jpg);
     background-repeat: no-repeat;
     background-size:cover;
