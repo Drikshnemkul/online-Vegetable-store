@@ -19,14 +19,22 @@
     display: flex;
     align-items: center;
     padding: 5px;
-    background-color: rgba(201, 36, 36, 0.808);
+    background-color: rgba(196, 114, 6, 0.671);
     position: relative;
     top: 20px;
+}
+
+.logo{
+    padding-left: 30px;
 }
 
 nav{
     flex:1;
     text-align: right;
+}
+
+.cart{
+    padding-right: 30px;
 }
 
 nav ul{
@@ -41,12 +49,12 @@ nav ul li{
 
 a{
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-size: 20px;
 }
 
 p{
-    color:rgb(10, 11, 12);
+    color:rgb(255, 255, 255);
     font-size: 25px;
 }
 
@@ -55,6 +63,7 @@ p{
     align-items:center;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 40px;
 }
 
 .col-2{
@@ -76,7 +85,7 @@ p{
 
 .btn{
     display: inline-block;
-    background: #ff523b;
+    background: rgba(196, 114, 6, 0.671);
     color:#fff;
     padding: 8px 30px;
     margin: 30px 0;
