@@ -22,7 +22,7 @@ function checkInputs(){
         //show error message
         setErrorrFor(username, 'Username cannot be blank');
     }else{
-        //add sucess class
+        //add success class
         setSuccessFor(username );
     }
 
@@ -34,6 +34,6 @@ function setErrorrFor(input, message){
 
     small.innerText = message;
 
-    //add error    class
+    //add error class
     formControl.className = "form-control error";
 }
