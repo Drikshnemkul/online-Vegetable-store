@@ -13,31 +13,29 @@
     background-position: center;
 }
 
-.navbar{
+.header{
     display: flex;
-    align-items: center;
     padding: 5px;
     background-color: rgba(196, 114, 6, 0.671);
     position: relative;
-    top: 20px;
+    height: 18;
 }
 
-.logo{
-    padding-left: 30px;
+.navbar{
+    width: 80%;
+    position: relative;
+    display: flex;
 }
 
 nav{
-    flex:1;
-    text-align: right;
-}
-
-.cart{
-    padding-right: 30px;
+    flex: 1; 
+    float: right;
 }
 
 nav ul{
-    display: inline-block;
+    display: flex;
     list-style-type: none;
+    float: right;
 }
 
 nav ul li{
@@ -97,9 +95,18 @@ p{
 
 
 .product{
-    width: 90%;
+    width: 80%;
+    height: 700px;
+    background-color: palegreen;
 }
 
-.product h1{
-    color: #ff523b;
+.gallery{
+    border: 1px solid black;
+    float: left;
+    width: 200px;
+    margin: 5px;
+}
+
+.gallery img{
+    width: 100%;
 }
