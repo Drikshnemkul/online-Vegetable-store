@@ -27,19 +27,13 @@
     display: flex;
 }
 
-.logo{
-}
-
 nav{
     flex: 1; 
     float: right;
 }
 
-.cart{
-}
-
 nav ul{
-    display: inline-block;
+    display: flex;
     list-style-type: none;
     float: right;
 }
