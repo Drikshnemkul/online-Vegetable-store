@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(to left,rgba(11, 7, 71, 0.6),rgba(109, 238, 83, 0.6)),url('image/loginImg.jpg');
+    background-image:linear-gradient(to left,rgba(208, 208, 218, 0.6),rgba(195, 235, 187, 0.6)),url('image/veg.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     font-family: 'lato', sans-serif,bold;
@@ -15,6 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    
 }
 .container{
     background-color: #fff;
@@ -49,7 +50,7 @@ text-align: center;
 }
 .form-control input{
     width: 100%;
-    border: 2px solid #f0f0f0;
+    border: 2px solid rgb(207, 180, 180);
     border-radius: 5px;
     display: block;
     font-family:'lato', sans-serif; 
