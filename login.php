@@ -22,7 +22,7 @@
     <button class="btn" type="submit">Log In</button>
   </div>
   <div class="acc">
-    <p>Create an account? <a href="signup.html">Sign Up</a></p>
+    <p>Create an account? <a href="signup.php">Sign Up</a></p>
   </div>
 </form> 
 </body>
