@@ -13,16 +13,16 @@
         <div class="header">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="image/logo.png" width="100px" alt="logo"></a>
+                    <a href="index.php"><img src="image/logo.png" width="100px" alt="logo"></a>
                 </div>
                 <!-- menu bar -->
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home </a></li>
-                        <li><a href="product.html">Product </a></li>
-                        <li><a href="about.html">About </a></li>
+                        <li><a href="index.php">Home </a></li>
+                        <li><a href="product.php">Product </a></li>
+                        <li><a href="about.php">About </a></li>
                         <li><a href="https://www.google.com/">Contact</a></li>
-                        <li><a href="login.html">Account </a>
+                        <li><a href="login.php">Account </a>
                         </li>
                     </ul>
                 </nav>
