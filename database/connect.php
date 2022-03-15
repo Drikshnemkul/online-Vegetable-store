@@ -21,6 +21,4 @@ $sqll = 'CREATE TABLE users(
 )';
 mysqli_query($conn, $sqll);
 
-mysqli_close($conn);
-
 ?>
