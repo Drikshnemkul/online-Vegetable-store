@@ -14,14 +14,12 @@ if(!$conn){
 }
 
 $sqll = 'CREATE TABLE users(
-    id int PRIMARY KEY NOT NULL,
+    id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
     userName VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL,
     phoneNo INT NOT NULL, 
     password VARCHAR(50) NOT NULL
 )';
 mysqli_query($conn, $sqll);
-
-mysqli_close($conn);
 
 ?>

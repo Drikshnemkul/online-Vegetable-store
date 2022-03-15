@@ -23,7 +23,8 @@ body{
     box-shadow:0 2.8px 2,2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0,0,0.48),0 12.5px ;
     overflow: hidden;
     width:calc(100vw - 65vw);
-    max-width:100% ;
+    max-width:100%;
+    height: auto;
 }
 .header{
     background: linear-gradient(to left,#59e68f,#67aff3);
