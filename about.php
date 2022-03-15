@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="css/style.css">
-=======
+    <title>About Us</title>    
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="about.css"> -->
->>>>>>> d28ef8d2ff595cefe13bdf5e77153c3e9015400d
+
+    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css"> -->
 </head>
 <body>
     <div class="container">
