@@ -14,7 +14,7 @@
      <div class="header">
          <h2>Create Account</h2>
      </div>
-     <form action="" class="form" id="form" >
+     <form action="login.php" class="form" id="form" method="POST">
          <div class="form-control">
              <label>Username</label>
              <input type="text" name="" id="username" placeholder="Enter your fullname" autocomplete="off">
@@ -53,7 +53,7 @@
         <div class="acc">
             <p>Already have an account? <a href="login.html">Login here </a></p>
         </div>
-        <input type="submit" value="submit" class="btn">
+        <button type="submit" class="btn">sumbit</button>
      </form>
  </div>
  <script src="signup.js"></script>
