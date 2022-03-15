@@ -39,7 +39,7 @@
                      Foods of the green vibration are all green fruits and green vegetables.”<br><br> – Tae Yun Kim
                 </p>
                 
-                <a href="" class="btn">Explore Now &#8594;</a>
+                <a href="product.php" class="btn">Explore Now &#8594;</a>
             </div>
          </div>
     </div>

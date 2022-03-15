@@ -50,7 +50,7 @@ a{
 }
 
 p{
-    color:rgb(255, 255, 255);
+    color:rgb(253, 249, 249);
     font-size: 25px;
 }
 
@@ -92,7 +92,21 @@ p{
 .btn:hover{
     background:#442c2c;
 }
-
+/* about us */
+.para{
+    color:rgb(7, 6, 6);
+    
+    text-align:center;
+    padding:15px;
+    
+}
+p.para{
+    font-size: 18px;
+}
+h2.head{
+    text-align:center;
+    color:rgb(103, 190, 122);
+}
 
 .product{
     width: 80%;
