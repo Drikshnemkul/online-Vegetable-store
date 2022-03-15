@@ -17,7 +17,7 @@
      <form action="database/signup.php" class="form" method="POST">
          <div class="form-control">
              <label>Username</label>
-             <input type="text" name="" id="username" placeholder="Enter your fullname" autocomplete="off">
+             <input type="text" name="fname" id="username" placeholder="Enter your fullname" autocomplete="off">
              <i class="fas fa-check-circle"></i>
              <i class="fas fa-exclamation-circle"></i>
              <small>Error message</small>
@@ -25,7 +25,7 @@
          
         <div class="form-control">
             <label>Email</label>
-            <input type="email"name="" id="email" placeholder="Enter your email"autocomplete="off">
+            <input type="email"name="email" id="email" placeholder="Enter your email"autocomplete="off">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>Error message</small>
@@ -33,7 +33,7 @@
 
         <div class="form-control">
             <label>Phone Number</label>
-            <input type="number"name="" id="phone" placeholder="Enter your phonenumber"autocomplete="off">
+            <input type="number"name="number" id="phone" placeholder="Enter your phonenumber"autocomplete="off">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>Error message</small>
@@ -41,28 +41,29 @@
         
         <div class="form-control">
             <label>Password</label>
-            <input type="password"name="" id="password" placeholder="Enter your password"autocomplete="off">
+            <input type="password"name="pass1" id="password" placeholder="Enter your password"autocomplete="off">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>Error message</small>
         </div>
+
         <div class="form-control">
             <label>Confirm Password</label>
-            <input type="password"name="" id="cpassword" placeholder="Enter your password again"autocomplete="off">
+            <input type="password"name="pass2" id="cpassword" placeholder="Enter your password again"autocomplete="off">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>Error message</small>
         </div>
         <div class="acc">
-            <p>Already have an account? <a href="login.html">Login here </a></p>
+            <p>Already have an account? <a href="login.php">Login here </a></p>
         </div>
-        <button type="submit" class="btn">sumbit</button>
+        <button type="submit" class="btn">Sign Up</button>
      </form>
 
     <?php
-        if(isset($_POST['errmsg'])){ ?>
+        if(isset($_GET['errmsg'])){ ?>
             <div class="alert alert-danger">
-            <?php echo $_POST['errmsg']; ?>
+            <?php echo $_GET['errmsg']; ?>
             </div>
             <?php  }
     ?>

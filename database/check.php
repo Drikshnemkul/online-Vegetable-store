@@ -1,8 +1,9 @@
 <?php
 include('connect.php');
 $email = $_POST['email'];
-$password = $_POST['pass'];
-$query = "SELECT * FROM users WHERE email = '$email' AND password = '$password'";
+$password = $_POST['pass1'];
+$encryptedPassword = md5($password);  
+$query = "SELECT * FROM users WHERE email = '$email' AND password = '$encryptedPassword'";
 $result = mysqli_query($conn,$query);
 
 if(mysqli_num_rows($result)==1){
