@@ -15,8 +15,8 @@ if(!$conn){
 
 $sqll = 'CREATE TABLE users(
     userName VARCHAR(50) NOT NULL,
-    phoneNo INT NOT NULL,
     email VARCHAR(50) NOT NULL,
+    phoneNo INT NOT NULL, 
     password VARCHAR(50) NOT NULL
 )';
 mysqli_query($conn, $sqll);

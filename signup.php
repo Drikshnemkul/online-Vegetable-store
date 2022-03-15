@@ -14,7 +14,7 @@
      <div class="header">
          <h2>Create Account</h2>
      </div>
-     <form action="login.php" class="form" id="form" method="POST">
+     <form action="database/signup.php" class="form" method="POST">
          <div class="form-control">
              <label>Username</label>
              <input type="text" name="" id="username" placeholder="Enter your fullname" autocomplete="off">
@@ -22,13 +22,7 @@
              <i class="fas fa-exclamation-circle"></i>
              <small>Error message</small>
          </div>
-         <div class="form-control">
-            <label>Phone Number</label>
-            <input type="number"name="" id="phone" placeholder="Enter your phonenumber"autocomplete="off">
-            <i class="fas fa-check-circle"></i>
-            <i class="fas fa-exclamation-circle"></i>
-            <small>Error message</small>
-        </div>
+         
         <div class="form-control">
             <label>Email</label>
             <input type="email"name="" id="email" placeholder="Enter your email"autocomplete="off">
@@ -36,6 +30,15 @@
             <i class="fas fa-exclamation-circle"></i>
             <small>Error message</small>
         </div>
+
+        <div class="form-control">
+            <label>Phone Number</label>
+            <input type="number"name="" id="phone" placeholder="Enter your phonenumber"autocomplete="off">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        
         <div class="form-control">
             <label>Password</label>
             <input type="password"name="" id="password" placeholder="Enter your password"autocomplete="off">
@@ -55,7 +58,17 @@
         </div>
         <button type="submit" class="btn">sumbit</button>
      </form>
+
+    <?php
+        if(isset($_POST['errmsg'])){ ?>
+            <div class="alert alert-danger">
+            <?php echo $_POST['errmsg']; ?>
+            </div>
+            <?php  }
+    ?>
+
+
  </div>
- <script src="signup.js"></script>
+ <!-- <script src="signup.js"></script> -->
 </body>
 </html>

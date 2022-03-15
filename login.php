@@ -9,7 +9,7 @@
 <body>
 <div id="bg"></div>
 
-<form>
+<form action="index.php" method="POST">
   <div class="form-field">
     <input type="email" placeholder="Email / Username" required/>
   </div>
