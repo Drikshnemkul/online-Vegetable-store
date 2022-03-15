@@ -19,8 +19,8 @@
                     <ul>
                         <li><a href="index.php">Home </a></li>
                         <li><a href="product.php">Product </a></li>
-                        <li><a href="https://www.google.com/">About </a></li>
-                        <li><a href="https://www.google.com/">Contact</a></li>
+                        <li><a href="about.php">About </a></li>
+                        <li><a href="contact.php">Contact</a></li>
                         <li><a href="login.php">Account </a>
                         </li>
                     </ul>
