@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">-->
 </head>
 <body>
+    
     <div class="container">
+        
         <!-- header file -->
         <div class="header">
             <div class="navbar">
@@ -102,7 +104,5 @@
     <div class="container">
 
     </div>
-
-
 </body>
 </html>
