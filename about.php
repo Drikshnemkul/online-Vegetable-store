@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        <!-- header file -->
+        <!-- header file -->    
         <div class="header">
             <div class="navbar">
                 <div class="logo">
